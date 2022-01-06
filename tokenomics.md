@@ -25,21 +25,21 @@ Tokenholders need to have some standardized and automated process that they can 
 
 ### risk computation
 
-Storage backend risk functions, with some variable to change them based on the censorship threat model for a given file, could probably be computed by real humans on a monthly basis, and adopted by the DAO according to a governance mechanism that only requires interaction from a small number of parties in nearly all situations. Thinking about market risk and investment strategy could be outsourced to a semi-managed DeFi thingy like Yearn, or also done periodically by real humans, similarly to storage risk.
+Storage backend risk functions, with some variable to change them based on the censorship threat model for a given file, could probably be computed by real humans on a monthly basis, and adopted by the DAO according to a governance mechanism that only requires interaction from a small number of parties in nearly all situations. Thinking about market risk and investment strategy could be outsourced to a semi-managed DeFi protocol like Yearn, or also done periodically by real humans, similarly to storage risk.
 
 Per-file computations for censorship risk could probably be handled with prediction markets of DAO tokenscensorship tends to happen periodically and in a very targeted manner, so this would be O(sporadic and small-constant) in terms of attention needed per stakeholder). People worried about the censorship of a given file could go lock a few tokens into a "flag high censorship risk" fund for a period for some reward...(TODO)?
 
 Loss-of-interest-related underfunding risk could be computed by a time-weighted average of donation versus costs of upkeep of the file. This one is pretty easy to automate. We might also add some human-adjusted Lindy effect/other factor- Plato's been around for 2000 years and we aren't likely to forget about it, Scihub is widely considered to have long-term value, but a random blog or fad novel might be quickly forgotten and should have a high risk factor if the DAO decides it's worth preserving forever.
 
-### incentives for risk computation
+### incentives for correct risk computation
 
-Tokenholders should only profit when they participate in (and act in line with) the process, and they should lose money when they don't. So it should be profitable to honestly compute and approve honestly-computed risk factors (perhaps the DAO puts out a bounty for risk factor computations, or some prediction market takes place?), whereas it should be pricey (at least in opportunity cost) to be dishonest. TODO TODO TODO
+Tokenholders should only profit when they participate in (and act in line with) the process, and they should lose money when they don't. So it should be profitable to honestly compute and approve honestly-computed risk factors (perhaps the DAO puts out a bounty for risk factor computations, or some prediction market takes place?), whereas it should be pricey (at least in opportunity cost) to be dishonest. I think the time-locking incentives for getting token shares should be sufficient for ensuring the DAO doesn't act in an inappropriate manner with regards to this- someone will call them out, and clients will stop donating.
 
 ### we have the marginal value functions of allocating money to projects. now what?
 
 Vitalik's QF paper seems possibly smart. need to figure out how to apply it. TODO
 
-I think the S-process allocation idea is really interesting and might be a super-relevant improvement over Vitalik's QF paper for this problem??? TODO TODO TODO DETAILS
+I think the S-process allocation idea is really interesting and might be a super-relevant improvement over Vitalik's QF paper for this problem??? TODO TODO TODO
 
 ## democracy
 
