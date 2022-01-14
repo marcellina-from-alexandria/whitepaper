@@ -1,4 +1,7 @@
 # THIS DOCUMENT IS UNDER CONSTRUCTION!!! PLEASE DON'T JUDGE ME TOO HARD
+
+# ALSO CHECK THE ISSUES TAB FOR THINGS THAT NEED TO BE CORRECTED BECAUSE THERE ARE SOME IMPORTANT IDEAS IN THERE!!
+
 # Alexandria Trust
 ### By Marcellina (marcellina@alex-trust.org)
 *Abstract: A description of a DAO to incentivize storing humanity's knowledge forever, with high fidelity.*
